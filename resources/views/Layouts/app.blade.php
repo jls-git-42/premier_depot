@@ -27,6 +27,9 @@
 
     @include('/Layouts/Partials/_Footer')
 
+    @yield('script_footer')
+    
+
     </body>
 
 </html>

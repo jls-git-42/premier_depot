@@ -12,6 +12,8 @@
     Construit Avec <span class="text-pink-500">&hearts;</span> Par Moi Meme ...
     </h1>
 
+    @include('/Layouts/Share/_isweekend')
+
     <p><a href="{{route('app_home')}}" class="text-indigo-400 underline hover:text-indigo-600">
      Revenir Vers La Page D'accueil ...
     </a></p>
